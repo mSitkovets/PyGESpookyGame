@@ -32,8 +32,8 @@ class Enemy(ObjectBase):
 			self.change_speed()
 
 	def change_speed(self):
-		self.x_vel = random.randint(100, 200) * random.randint(-1, 1)
-		self.y_vel = random.randint(100, 200) * random.randint(-1, 1)
+		self.x_vel = random.randint(100, 300) * random.randint(-1, 1)
+		self.y_vel = random.randint(100, 300) * random.randint(-1, 1)
 
 # def time_move(self):
 
