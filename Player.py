@@ -1,6 +1,6 @@
 from PyGE.Objects import ObjectBase
 from PyGE.DisplayMethods import Image
-class Player(Entity):
+class Player(ObjectBase):
     def oncreate(self):
         self.set_display_method(Image(self.screen, "PyGE"))
     def draw(self):
