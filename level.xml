@@ -1,5 +1,5 @@
 <building>
-<room name="start">
-    <Player x="5" y="5"/>
-</room>
+	<room name="start">
+		<EntityManager/>
+	</room>
 </building>
