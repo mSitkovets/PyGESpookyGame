@@ -1,0 +1,5 @@
+<building>
+<room name="start">
+    <Player x="5" y="5"/>
+</room>
+</building>
